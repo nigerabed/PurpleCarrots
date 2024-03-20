@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 10em;
+  width: 100%;
+}
+body {
+ 
+  background-color: rgb(241, 213, 241);
+}
+h1{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.433);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#banner-container {
+  background-image: url("./images/banner.jpg");
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  color: rgb(237, 229, 237);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3em;
+}
+
+.form-input input {
+  height: 5em;
+  width: 20em;
+  border-radius: 6em;
+  margin-top: 1em;
+  box-shadow: 5px 5px 5px rgb(138, 137, 137);
+}
+
+.form-input label {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2em;
+}
+
+button{
+    height: 3em;
+    width: 8em;
+    background-color: rgb(163, 62, 176);
+    border-radius: 3em;
+    margin-top: 1em;
+    box-shadow: 5px 5px 5px rgb(138, 137, 137);
+    color: aliceblue;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.form-input a{
+    font-size: 1.2em;
+}
+
+.gallery{
+   display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap:1em;
+    justify-items: center;
+    margin-top: 2em;
+
+}
+
+.gallery img{
+  height: 12em;
+  width: 20em;
+  object-fit: cover;
+  border-radius: 2em;
+}
+
+.gallery button{
+  position: absolute;
+  right: 1em;
+  top: 5.4em
+}
