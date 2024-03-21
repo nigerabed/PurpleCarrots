@@ -68,8 +68,10 @@ button{
     margin-bottom: 1em;
 }
 
-.form-input a{
-    font-size: 1.2em;
+ a{
+    font-size: 1.6em;
+    text-decoration: underline;
+    color: rgb(131, 20, 235);
 }
 
 .gallery{

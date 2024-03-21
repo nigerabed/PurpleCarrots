@@ -11,9 +11,10 @@ export default function Login(handlesubmit, handleClick) {
   form.append(Button("Log inn"));
 
   let a = document.createElement("a");
+  a.addEventListener("click", handleClick);
+ 
   a.className = "loginLink";
   a.innerText = "Sign up";
-  a.addEventListener("click", handleClick);
   form.append(a);
   return form;
 }
